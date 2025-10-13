@@ -1,109 +1,67 @@
 1. Requisitos de Energía
+    1.1 Entrada de alimentación:
+        220V AC (alimentación de red estándar)
+        Fuente de poder ATX de PC como convertidor principal
 
-1.1 Entrada de alimentación:
+    1.2 Salidas de la fuente ATX (a través de reguladores):
+        3.3V DC regulado
+        5V DC regulado
+        12V DC regulado
+        -12V DC regulado
+        0–24V DC ajustable (regulador variable)
 
-220V AC (alimentación de red estándar)
-
-Fuente de poder ATX de PC como convertidor principal
-
-1.2 Salidas de la fuente ATX (a través de reguladores):
-
-3.3V DC regulado
-
-5V DC regulado
-
-12V DC regulado
-
--12V DC regulado
-
-0–24V DC ajustable (regulador variable)
-
-Todas las líneas deben tener protección (fusibles, diodos de protección, etc.)
+        Todas las líneas deben tener protección (fusibles, diodos de protección, etc.)
 
 2. Requisitos del Sistema de Control
+    2.1 Microordenador principal:
+        Orange Pi Zero 2W
+        CPU ARM 64 bits
+        2 GB RAM
+        Interfaz GPIO y SPI
+        Soporte para microSD y WiFi
 
-2.1 Microordenador principal:
+    2.2 Almacenamiento:
+        Tarjeta microSD para el sistema operativo y almacenamiento de datos
 
-Orange Pi Zero 2W
-
-CPU ARM 64 bits
-
-2 GB RAM
-
-Interfaz GPIO y SPI
-
-Soporte para microSD y WiFi
-
-2.2 Almacenamiento:
-
-Tarjeta microSD para el sistema operativo y almacenamiento de datos
-
-2.3 Interfaz de usuario:
-
-Pantalla táctil (SPI o HDMI + USB para táctil)
+    2.3 Interfaz de usuario:
+        Pantalla táctil (SPI o HDMI + USB para táctil)
 
 3. Requisitos de Medición y Control
+    3.1 Sistema de monitoreo de energía:
+        Medición de voltaje y corriente en múltiples líneas (3.3V, 5V, ±12V, regulable)
+        Comunicación con el microordenador mediante I2C (SDA/SCL)
 
-3.1 Sistema de monitoreo de energía:
-
-Medición de voltaje y corriente en múltiples líneas (3.3V, 5V, ±12V, regulable)
-
-Comunicación con el microordenador mediante I2C (SDA/SCL)
-
-3.2 Control de salidas de potencia:
-
-MOSFETs controlados por GPIO del Orange Pi para activar/desactivar líneas
+    3.2 Control de salidas de potencia:
+        MOSFETs controlados por GPIO del Orange Pi para activar/desactivar líneas
 
 4. Requisitos de Instrumentación
+    4.1 Osciloscopio:
+        PCB dedicada con interfaz SPI
+        Conversor ADC de alta velocidad
+        Acondicionamiento de señal y entradas protegidas
 
-4.1 Osciloscopio:
-
-PCB dedicada con interfaz SPI
-
-Conversor ADC de alta velocidad
-
-Acondicionamiento de señal y entradas protegidas
-
-4.2 Generador de funciones:
-
-Basado en CH32V003 o chip DDS (por ejemplo, AD9833)
-
-Generación de señales básicas: seno, cuadrada, triangular
-
-Controlado por el microprocesador
+    4.2 Generador de funciones:
+        Basado en CH32V003 o chip DDS (por ejemplo, AD9833)
+        Generación de señales básicas: seno, cuadrada, triangular
+        Controlado por el microprocesador
 
 4.3 Medidor/trazador de componentes:
-
-PCB dedicada conectada por SPI
-
-Medición de resistencias, capacitores, diodos, transistores, etc.
+        PCB dedicada conectada por SPI
+        Medición de resistencias, capacitores, diodos, transistores, etc.
 
 5. Requisitos de Integración y Panel
+    5.1 Panel de salidas:
+        Terminales de salida accesibles para:
+        3.3V
+        5V
+        12V
+        -12V
+        Voltaje regulable
+        Indicadores visuales (LEDs o display) para estado de cada salida
 
-5.1 Panel de salidas:
-
-Terminales de salida accesibles para:
-
-3.3V
-
-5V
-
-12V
-
--12V
-
-Voltaje regulable
-
-Indicadores visuales (LEDs o display) para estado de cada salida
-
-5.2 Carcasa y disposición física:
-
-Caja tipo laboratorio con:
-
-Acceso a salidas
-
-Pantalla visible y segura
-
-Buena disipación de calor
-
-Separación entre módulos de alta y baja frecuencia para evitar interferencias
+    5.2 Carcasa y disposición física:
+        Caja tipo laboratorio con:
+        Acceso a salidas
+        Pantalla visible y segura
+        Buena disipación de calor
+        Separación entre módulos de alta y baja frecuencia para evitar interferencias
