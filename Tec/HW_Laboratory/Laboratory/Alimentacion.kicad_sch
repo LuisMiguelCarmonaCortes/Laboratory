@@ -1,0 +1,312 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "e80540ac-846e-481f-9c76-dd1aeba4843c")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 132.08 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "277aed7e-f4c0-4f13-a10d-74ed0f095ba0")
+	)
+	(wire
+		(pts
+			(xy 100.33 54.61) (xy 132.08 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc34d32-e7eb-4681-bbf8-21d231343804")
+	)
+	(wire
+		(pts
+			(xy 100.33 52.07) (xy 132.08 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2fc56ce-a576-4927-8856-490e0cc7a396")
+	)
+	(wire
+		(pts
+			(xy 100.33 67.31) (xy 132.08 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe013bd8-40c2-4efd-adec-1af4519178ae")
+	)
+	(sheet
+		(at 167.64 102.87)
+		(size 39.37 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "89a1d273-121e-4658-9f6f-055ff7511d36")
+		(property "Sheetname" "Temperatura"
+			(at 167.64 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Temperatura.kicad_sch"
+			(at 167.64 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Laboratory"
+				(path "/91075eda-b6cb-4282-964d-615bb20560a9/a5240675-39c8-45fc-bbef-ebf5c8c37ff0"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 34.29)
+		(size 38.1 36.83)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9b05715d-df76-45ac-993c-b1bce32847bb")
+		(property "Sheetname" "Selecciones"
+			(at 62.23 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Selecciones.kicad_sch"
+			(at 62.23 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DAT" input
+			(at 80.01 71.12 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4bd3aa45-2794-45a1-867c-4379f8020a85")
+		)
+		(pin "CLK" input
+			(at 82.55 71.12 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55fbbf09-4bc7-436c-a1c4-fb5903058455")
+		)
+		(pin "SHIFT" input
+			(at 85.09 71.12 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "587812b7-9e2b-4d93-a265-e4f08cd43563")
+		)
+		(pin "Reg_2" output
+			(at 100.33 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "33d8e310-bfc4-4b18-86da-f878a646b58d")
+		)
+		(pin "Reg_1" output
+			(at 100.33 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "533770a4-5cf2-47f1-b80f-991380ac2b6c")
+		)
+		(pin "12V" output
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "58eb9621-ee16-49ab-9944-d9a325a79372")
+		)
+		(pin "Reg_3" output
+			(at 100.33 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0311045-db66-4b0a-8dd6-239fc035fc26")
+		)
+		(pin "5V" output
+			(at 100.33 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6ee2eb9c-d3de-499d-b761-63ea4f47ca5c")
+		)
+		(pin "3.3V" output
+			(at 100.33 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "22a42b95-0138-4b52-819c-ec4fd9503c3c")
+		)
+		(pin "GND" input
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "827c0bc4-adcc-4045-b8da-bdcb6e6dafd0")
+		)
+		(pin "5V_Fijos" input
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "97a8165e-95a8-4b07-8214-478db174a47b")
+		)
+		(instances
+			(project "Laboratory"
+				(path "/91075eda-b6cb-4282-964d-615bb20560a9/a5240675-39c8-45fc-bbef-ebf5c8c37ff0"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 132.08 35.56)
+		(size 43.18 35.56)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fc856a99-15d1-47da-98fc-0e907b712ff5")
+		(property "Sheetname" "Consumo"
+			(at 132.08 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Consumo.kicad_sch"
+			(at 132.08 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "GND" input
+			(at 132.08 67.31 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e6e7acfc-8b6d-4911-bd8e-82fdf1f230bf")
+		)
+		(pin "3.3V" input
+			(at 132.08 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "62047036-c574-4caa-9367-b20cdfffade2")
+		)
+		(pin "5V" input
+			(at 132.08 54.61 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d5a5b505-82b0-43f7-871d-cbfe84aec653")
+		)
+		(pin "12V" input
+			(at 132.08 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "97084a35-fb5f-4a51-afaa-8943fea07f83")
+		)
+		(instances
+			(project "Laboratory"
+				(path "/91075eda-b6cb-4282-964d-615bb20560a9/a5240675-39c8-45fc-bbef-ebf5c8c37ff0"
+					(page "4")
+				)
+			)
+		)
+	)
+)
