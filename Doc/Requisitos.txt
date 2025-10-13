@@ -45,9 +45,13 @@
         Generación de señales básicas: seno, cuadrada, triangular
         Controlado por el microprocesador
 
-4.3 Medidor/trazador de componentes:
+    4.3 Medidor/trazador de componentes:
         PCB dedicada conectada por SPI
         Medición de resistencias, capacitores, diodos, transistores, etc.
+
+    4.4 Cama caliente:
+        PCB adicional controlada por SPI
+        Usada para soldadura SMD
 
 5. Requisitos de Integración y Panel
     5.1 Panel de salidas:
