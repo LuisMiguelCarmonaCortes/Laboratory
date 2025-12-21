@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 45.72 133.35)
-		(size 52.07 22.86)
+		(at 31.75 20.32)
+		(size 83.82 50.8)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -16,9 +16,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "a5240675-39c8-45fc-bbef-ebf5c8c37ff0")
-		(property "Sheetname" "Fuente de alimentacion"
-			(at 45.72 132.6384 0)
+		(uuid "423aa55e-c246-4f1d-a574-6c97568acd75")
+		(property "Sheetname" "Fuente_alimentacion"
+			(at 31.75 19.6084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26,8 +26,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Alimentacion.kicad_sch"
-			(at 45.72 156.7946 0)
+		(property "Sheetfile" "fuente_alimentacion.kicad_sch"
+			(at 31.75 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)

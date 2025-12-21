@@ -3,7 +3,7 @@ This is a full guide line to build a complete electronic laboratory.
                         (FOTO TERMINADO)
                         Figure 1. The laboratory
                         
-It will have the followung blocks:
+It will have the following blocks:
 
     . Power supply
     . Sine Generator

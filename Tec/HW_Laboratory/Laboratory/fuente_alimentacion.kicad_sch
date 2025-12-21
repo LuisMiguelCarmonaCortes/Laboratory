@@ -1,0 +1,84 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f9eb430d-c795-44f5-b1f9-e79bfd030218")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 93.98 35.56)
+		(size 82.55 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "37551c8e-699e-4ccc-8077-a67301ca0cab")
+		(property "Sheetname" "Selector"
+			(at 93.98 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "selector.kicad_sch"
+			(at 93.98 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Laboratory"
+				(path "/91075eda-b6cb-4282-964d-615bb20560a9/423aa55e-c246-4f1d-a574-6c97568acd75"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 95.25 100.33)
+		(size 81.28 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "82f94596-3876-4b28-a745-66140cb2bda8")
+		(property "Sheetname" "Regulador"
+			(at 95.25 99.6184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "regulador.kicad_sch"
+			(at 95.25 149.1746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Laboratory"
+				(path "/91075eda-b6cb-4282-964d-615bb20560a9/423aa55e-c246-4f1d-a574-6c97568acd75"
+					(page "4")
+				)
+			)
+		)
+	)
+)

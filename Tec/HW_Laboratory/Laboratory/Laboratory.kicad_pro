@@ -51,7 +51,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -171,7 +177,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.127,
+        0.25
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -198,7 +208,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -580,20 +595,28 @@
       "Root"
     ],
     [
-      "a5240675-39c8-45fc-bbef-ebf5c8c37ff0",
-      "Fuente de alimentacion"
+      "423aa55e-c246-4f1d-a574-6c97568acd75",
+      "Fuente_alimentacion"
     ],
     [
-      "9b05715d-df76-45ac-993c-b1bce32847bb",
-      "Selecciones"
+      "37551c8e-699e-4ccc-8077-a67301ca0cab",
+      "Selector"
     ],
     [
-      "fc856a99-15d1-47da-98fc-0e907b712ff5",
-      "Consumo"
+      "82f94596-3876-4b28-a745-66140cb2bda8",
+      "Regulador"
     ],
     [
-      "89a1d273-121e-4658-9f6f-055ff7511d36",
-      "Temperatura"
+      "31084372-c277-4459-84db-e5816f122e6c",
+      "Control"
+    ],
+    [
+      "a35b2e81-22d3-48a5-87f7-0709ff281cbc",
+      "Sensado"
+    ],
+    [
+      "e3d37a72-1339-402b-b710-ae223e54d685",
+      "Mosfets"
     ]
   ],
   "text_variables": {}
