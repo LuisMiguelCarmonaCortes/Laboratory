@@ -617,6 +617,18 @@
     [
       "e3d37a72-1339-402b-b710-ae223e54d685",
       "Mosfets"
+    ],
+    [
+      "147b63b9-ac82-4ea5-a0bb-1ec13bcf33c4",
+      "Control_central"
+    ],
+    [
+      "8527d001-6fd7-4853-8b7d-78550b4ee3f9",
+      "Generador_funciones"
+    ],
+    [
+      "f73709b5-0da3-49b4-8e5a-0136ab2f867c",
+      "IoT"
     ]
   ],
   "text_variables": {}

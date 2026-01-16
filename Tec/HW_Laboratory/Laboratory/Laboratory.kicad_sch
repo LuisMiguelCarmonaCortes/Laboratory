@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 31.75 139.7)
+		(size 83.82 53.34)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "147b63b9-ac82-4ea5-a0bb-1ec13bcf33c4")
+		(property "Sheetname" "Control_central"
+			(at 31.75 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Control_central.kicad_sch"
+			(at 31.75 193.6246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Laboratory"
+				(path "/91075eda-b6cb-4282-964d-615bb20560a9"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 31.75 20.32)
 		(size 83.82 50.8)
 		(fields_autoplaced yes)
@@ -39,6 +77,82 @@
 			(project "Laboratory"
 				(path "/91075eda-b6cb-4282-964d-615bb20560a9"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 152.4 20.32)
+		(size 88.9 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8527d001-6fd7-4853-8b7d-78550b4ee3f9")
+		(property "Sheetname" "Generador_funciones"
+			(at 152.4 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "generador_funciones.kicad_sch"
+			(at 152.4 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Laboratory"
+				(path "/91075eda-b6cb-4282-964d-615bb20560a9"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 153.67 110.49)
+		(size 87.63 44.45)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f73709b5-0da3-49b4-8e5a-0136ab2f867c")
+		(property "Sheetname" "IoT"
+			(at 153.67 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "iot.kicad_sch"
+			(at 153.67 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Laboratory"
+				(path "/91075eda-b6cb-4282-964d-615bb20560a9"
+					(page "12")
 				)
 			)
 		)
