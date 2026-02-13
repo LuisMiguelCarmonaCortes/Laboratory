@@ -1,13 +1,17 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "91075eda-b6cb-4282-964d-615bb20560a9")
 	(paper "A4")
 	(lib_symbols)
 	(sheet
 		(at 31.75 139.7)
 		(size 83.82 53.34)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -17,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "147b63b9-ac82-4ea5-a0bb-1ec13bcf33c4")
-		(property "Sheetname" "Control_central"
+		(property "Sheetname" "Prueba_ESP-CH"
 			(at 31.75 138.9884 0)
 			(effects
 				(font
@@ -46,6 +50,10 @@
 	(sheet
 		(at 31.75 20.32)
 		(size 83.82 50.8)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -84,6 +92,10 @@
 	(sheet
 		(at 152.4 20.32)
 		(size 88.9 49.53)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -120,8 +132,12 @@
 		)
 	)
 	(sheet
-		(at 153.67 110.49)
-		(size 87.63 44.45)
+		(at 166.37 116.84)
+		(size 82.55 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -130,9 +146,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "f73709b5-0da3-49b4-8e5a-0136ab2f867c")
-		(property "Sheetname" "IoT"
-			(at 153.67 109.7784 0)
+		(uuid "e1cf4752-192b-45d3-9991-7599859c29bf")
+		(property "Sheetname" "Centro_control"
+			(at 166.37 116.1284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -140,8 +156,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "iot.kicad_sch"
-			(at 153.67 155.5246 0)
+		(property "Sheetfile" "centro_control.kicad_sch"
+			(at 166.37 159.3346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,7 +168,7 @@
 		(instances
 			(project "Laboratory"
 				(path "/91075eda-b6cb-4282-964d-615bb20560a9"
-					(page "12")
+					(page "11")
 				)
 			)
 		)
@@ -162,4 +178,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )

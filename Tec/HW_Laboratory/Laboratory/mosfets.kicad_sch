@@ -1,12 +1,14 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "3113d2a5-e66b-4d6a-98d4-bd9eb969a5e9")
 	(paper "A4")
 	(lib_symbols
 		(symbol "Device:R"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
 			)
@@ -125,10 +127,15 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Diode:BZX84Cxx"
-			(pin_numbers hide)
-			(pin_names hide)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -196,10 +203,10 @@
 			(symbol "BZX84Cxx_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -208,10 +215,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
-						(width 0.254)
+						(width 0)
 						(type default)
 					)
 					(fill
@@ -233,42 +240,6 @@
 			)
 			(symbol "BZX84Cxx_1_1"
 				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 1.27 0 180)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
 					(name "K"
@@ -286,11 +257,51 @@
 						)
 					)
 				)
+				(pin no_connect line
+					(at 1.27 0 180)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_BJT:BC847BS"
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -368,7 +379,19 @@
 			(symbol "BC847BS_0_1"
 				(polyline
 					(pts
-						(xy 0.635 0) (xy -2.54 0)
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
 					)
 					(stroke
 						(width 0)
@@ -380,7 +403,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy 0.635 0) (xy -2.54 0)
 					)
 					(stroke
 						(width 0)
@@ -402,12 +425,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
-						(width 0.508)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -426,37 +448,8 @@
 						(type outline)
 					)
 				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
 			(symbol "BC847BS_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -493,8 +486,44 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "BC847BS_2_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -531,28 +560,13 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Transistor_FET:AO3401A"
-			(pin_names hide)
+			(pin_names
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -625,6 +639,18 @@
 			(symbol "AO3401A_0_1"
 				(polyline
 					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
 						(xy 0.254 0) (xy -2.54 0)
 					)
 					(stroke
@@ -637,7 +663,31 @@
 				)
 				(polyline
 					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
 					)
 					(stroke
 						(width 0.254)
@@ -659,60 +709,11 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
 					(stroke
 						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
 						(type default)
 					)
 					(fill
@@ -729,6 +730,52 @@
 					)
 					(fill
 						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(polyline
@@ -755,39 +802,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
 			)
 			(symbol "AO3401A_1_1"
 				(pin input line
@@ -801,24 +815,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -844,13 +840,36 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:GND2"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -941,6 +960,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 	)
 	(junction
