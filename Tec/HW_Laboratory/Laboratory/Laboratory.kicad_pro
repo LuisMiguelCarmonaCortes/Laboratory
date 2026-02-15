@@ -645,15 +645,23 @@
     ],
     [
       "147b63b9-ac82-4ea5-a0bb-1ec13bcf33c4",
-      "Prueba_ESP-CH"
+      "Analizador"
     ],
     [
       "8527d001-6fd7-4853-8b7d-78550b4ee3f9",
       "Generador_funciones"
     ],
     [
+      "4f154e3d-33be-471b-87a0-b9c1ed10f947",
+      "Adaptacion"
+    ],
+    [
       "e1cf4752-192b-45d3-9991-7599859c29bf",
       "Centro_control"
+    ],
+    [
+      "d0ac47e4-acf0-4080-b875-061e7d303c20",
+      "TTL-USB"
     ]
   ],
   "text_variables": {}

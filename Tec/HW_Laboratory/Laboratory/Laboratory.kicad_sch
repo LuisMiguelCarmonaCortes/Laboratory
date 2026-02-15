@@ -21,7 +21,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "147b63b9-ac82-4ea5-a0bb-1ec13bcf33c4")
-		(property "Sheetname" "Prueba_ESP-CH"
+		(property "Sheetname" "Analizador"
 			(at 31.75 138.9884 0)
 			(effects
 				(font

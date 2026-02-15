@@ -2592,6 +2592,14 @@
 		(uuid "239ccb95-f336-45a2-bee2-7ebe6545a5e3")
 	)
 	(no_connect
+		(at 76.2 101.6)
+		(uuid "475f0a80-9d95-4d55-9220-429eedfd1662")
+	)
+	(no_connect
+		(at 196.85 110.49)
+		(uuid "8bd32439-a8ce-44fd-ab2d-d63e2f6f798d")
+	)
+	(no_connect
 		(at 172.72 29.21)
 		(uuid "94f20014-4b4b-4235-a38b-009b88745f50")
 	)
@@ -2602,6 +2610,10 @@
 	(no_connect
 		(at 170.18 107.95)
 		(uuid "b1f9467a-b1e6-4dc3-a4b5-477252656652")
+	)
+	(no_connect
+		(at 92.71 74.93)
+		(uuid "bddef4f9-0f4b-4601-92d0-059463f121a2")
 	)
 	(no_connect
 		(at 163.83 29.21)
@@ -5060,6 +5072,26 @@
 			(type default)
 		)
 		(uuid "fed6c1b6-d1ef-4241-a756-a2b366aa4d9d")
+	)
+	(label "SCL"
+		(at 140.97 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "523a0efb-b7d6-471d-8d18-b7013d4b6fa0")
+	)
+	(label "SDA"
+		(at 139.7 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b697b70a-ab8f-4141-8064-5be87cb9e011")
 	)
 	(global_label "5V_gen"
 		(shape input)
