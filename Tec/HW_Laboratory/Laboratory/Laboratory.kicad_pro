@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.08,
+          "via_gap": 0.09,
+          "width": 0.09
         }
       ],
       "drc_exclusions": [],
@@ -504,7 +509,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "./Gerbers",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
