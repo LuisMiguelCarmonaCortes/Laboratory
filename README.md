@@ -47,6 +47,12 @@ The PCB features three independent Buck-Boost converters (Reg1, Reg2, and Reg3).
 
 **MOSFET Switching Array:** High-side switches controlled by the CH32V006 to enable or disable specific output rails instantly.
 
+<p align="center">
+  <img src="./Doc/Images/Power_supply_control.png" width="700">
+</p>
+
+<p align="center"><em>Figure 2. Power supply Control PCB</em></p>
+
 ## Monitoring and Protection
 | Component | Function |
 |----------|----------|
