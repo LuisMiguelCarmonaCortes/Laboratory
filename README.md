@@ -57,14 +57,69 @@ The PCB features three independent Buck-Boost converters (Reg1, Reg2, and Reg3).
 | Component | Function |
 |----------|----------|
 | ina3221| Monitors current draw across all voltage rails to prevent over-current scenarios and cut off if the intensity goes hihger than if preset |
-| lm75    | Monitors the PCB temperature. |
+| tmp102    | Monitors the PCB temperature. |
 | EEPROM | Stores user presets (favorite voltages), safety threshold logs and erros logs. |
 
-# Sine generator
+## Code flow
 
-# Health Monitoring
+<p align="center">
+  <img src="./Doc/Images/Flow_code_power_supply.png" width="700">
+</p>
 
-# Fully Remote Control
+<p align="center"><em>Figure 2. Code Flow diagram.</em></p>
+
+# Regulator PCB
+
+The Regulator PCB is the voltage conversion stage of the Power Supply system. Its purpose is to transform the 12V input rail from the PC power supply into an adjustable output voltage ranging from **1.25V to 24V**. The regulation is achieved by combining independent buck and boost converters, both digitally controlled by the Power Supply Control PCB.
+
+<p align="center">
+  <img src="./Doc/Images/Regulator_PCB.png" width="700">
+</p>
+
+<p align="center"><em>Figure X. Regulator PCB block diagram.</em></p>
+
+## System Architecture
+
+### A) Input Stage
+
+**12V Input:**  
+The PCB receives a regulated 12V supply from the main Power Supply PCB. This voltage is distributed to two independent regulation paths.
+
+### B) Buck Regulator
+
+**Function:**  
+When enabled, the buck converter steps the input voltage down from **12V to as low as 1.25V**.
+
+**Voltage Control:**  
+The output voltage is adjusted through a **DS1803 I²C digital potentiometer**, allowing precise software control.
+
+**Control:**  
+The converter is enabled and configured by the **Power Supply Control PCB** through the I²C interface.
+
+### C) Boost Regulator
+
+**Function:**  
+When enabled, the boost converter increases the input voltage from **12V up to 24V**.
+
+**Voltage Control:**  
+As with the buck stage, the output voltage is adjusted using a **DS1803 I²C digital potentiometer**.
+
+**Control:**  
+The boost converter is fully controlled by the **Power Supply Control PCB**, which selects the desired output voltage and enables or disables the converter as required.
+
+### D) Output Selection
+
+Only one regulation path is enabled at a time. Depending on the requested output voltage, the Control PCB activates either:
+
+- **Buck mode:** 12V → 1.25V
+- **Boost mode:** 12V → 24V
+
+This approach provides a continuous adjustable output voltage while maintaining high conversion efficiency over the entire operating range.
+# 2. Sine generator
+
+# 3. Logic Analizer / debuger
+
+# 4. Fully Remote Control
 
 
 
